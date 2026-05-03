@@ -14,6 +14,8 @@ struct CoffeeListView: View {
     @State private var router = [Router]()
     @State private var searchText:String = ""
     
+    // Test1
+    
     init(coffeeListService: CoffeeListService) {
             
         _coffeeListViewModel = StateObject(wrappedValue: CoffeeListViewModel(coffeListService: coffeeListService))
