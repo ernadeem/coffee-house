@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+// Test comment
 struct CoffeeListView: View {
     
     @StateObject private var coffeeListViewModel: CoffeeListViewModel
@@ -76,6 +76,7 @@ struct CoffeeListView: View {
     private var loaderView: some View {
         
         ProgressView("Please wait, loading coffee list")
+        
 
     }
     
